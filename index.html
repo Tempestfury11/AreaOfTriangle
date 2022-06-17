@@ -9,42 +9,40 @@
     <title>Area of Triangle</title>
 </head>
 <body>
-    <div class="title"><h2>Area of Triangle</h2></div>
-    <div class="base1">
+    <main id="mainfield">
         <div class="container">
-            <div class="base2">
-                <label for="side1">
-                    Enter the value of side 1: 
-                </label>
-                  
-                <input type="number" id="side1" 
-                    placeholder="Enter value of side 1">
-                <br><br>
+            <h2>Area of Triangle</h2>
+            <label for="side1">
+                Enter the value of side 1: 
+            </label>
               
-                <label for="side2">
-                    Enter the value of side 2: 
-                </label>
-                  
-                <input type="number" id="side2" 
-                    placeholder="Enter value of side 2">
-                <br><br>
+            <input type="number" id="side1" 
+                placeholder="Enter value of side 1">
+            <br><br>
+          
+            <label for="side2">
+                Enter the value of side 2: 
+            </label>
               
-                <label for="side3">
-                    Enter the value of side 3: 
-                </label>
-                  
-                <input type="number" id="side3" 
-                    placeholder="Enter value of side 2">
-                <br><br>
+            <input type="number" id="side2" 
+                placeholder="Enter value of side 2">
+            <br><br>
+          
+            <label for="side3">
+                Enter the value of side 3: 
+            </label>
               
-                <button onclick="Area()">Click Here!</button>
-              
-                <p>
-                    Area of Triangle: <span id="display"></span>
-                </p>
-            </div>
+            <input type="number" id="side3" 
+                placeholder="Enter value of side 2">
+            <br><br>
+          
+            <button onclick="Area()">Click Here!</button>
+          
+            <p>
+                Area of Triangle: <span id="display"></span>
+            </p>
         </div>
-    </div>
+    </main>
     <script src="./java/code.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

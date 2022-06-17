@@ -1,5 +1,4 @@
-body{
-	background-color: red;
+#mainfield{
 	font-size: 15px;
 	line-height: 1.5;
 	padding: 0;
@@ -11,33 +10,14 @@ body{
 }
 
 .container{
-	width:520px;
+	width:300px;
 	height: auto;
 	margin: 100px auto;
-	background-color: white;
 	border-radius: 5px;
     text-align: center;
 }
 
-.base1{
-	width: 100%;
-	margin: 0;
-	overflow: hidden;
-	display: block;
-	float: none;
-    background-color: blue;
-}
-
-.base2{
-	width: 100%;
-	margin: 0;
-	overflow: hidden;
-	display: block;
-	float: none;
-    background-color: white;
-}
-
-.title {
+.h2{
     text-align: center;
     font-family: sans-serif;
 }
